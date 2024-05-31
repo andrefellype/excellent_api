@@ -1,0 +1,1 @@
+export interface UserUpdateIsEnabledByIdUseCase { execute(id: number): Promise<void>; }

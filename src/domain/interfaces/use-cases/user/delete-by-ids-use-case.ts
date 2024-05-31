@@ -1,0 +1,1 @@
+export interface UserDeleteByIdsUseCase { execute(ids: number[]): Promise<void>; }

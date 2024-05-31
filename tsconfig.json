@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "./src/",
+    "paths": {
+      "@utils": ["app/utils"],
+      "@domain/*": ["domain/*"],
+      "@data/*": ["data/*"],
+      "@routes": ["presentation/routes"],
+      "@validation": ["presentation/validation"],
+      "@middleware": ["presentation/middleware"],
+      "@/*": ["*"],
+    }
+  }
+}

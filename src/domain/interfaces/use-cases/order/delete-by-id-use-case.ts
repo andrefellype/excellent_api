@@ -1,0 +1,1 @@
+export interface OrderDeleteByIdUseCase { execute(id: number): Promise<void>; }

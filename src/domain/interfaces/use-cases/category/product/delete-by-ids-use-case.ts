@@ -1,0 +1,1 @@
+export interface CategoryProductDeleteByIdsUseCase { execute(ids: number[]): Promise<void>; }

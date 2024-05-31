@@ -1,0 +1,1 @@
+export interface ProductRegisterUseCase { execute(value: { description: string, grossPrice: string | null, salePrice: string | null, photo: string | null }): Promise<void>; }

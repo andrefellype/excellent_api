@@ -1,0 +1,1 @@
+export interface ClientDeleteByIdsUseCase { execute(ids: number[]): Promise<void>; }

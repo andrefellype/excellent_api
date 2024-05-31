@@ -1,0 +1,1 @@
+export interface CategoryProductRegisterUseCase { execute(value: { name: string, icon: string | null }): Promise<void>; }

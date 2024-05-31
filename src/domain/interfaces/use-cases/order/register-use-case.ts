@@ -1,0 +1,1 @@
+export interface OrderRegisterUseCase { execute(value: { quantity: number, productId: number, clientId: number }): Promise<void>; }
